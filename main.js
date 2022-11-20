@@ -31,3 +31,10 @@ const projects = [
         description: 'GameLister is a Craigslist-like full-stack web application that allows users to create and search for ads with full CRUD functionality.  Built by a team of 3, GameLister is structured with MVC design and programmed using Java, Servlets, JSP, JSTL, MySQL, Javascript, jQuery, CSS, and Bootstrap.'
     }
 ]
+
+
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.menu').toggleClass('active');
+    });
+});
