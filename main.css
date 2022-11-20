@@ -12,9 +12,13 @@ body {
 }
 
 #section-bg-img-1 {
-    height: 1100px;
+    height: 101vh;
+    /*height: 100%;*/
+    /*min-height: 800px;*/
+    /*min-height: 101vh;*/
     z-index: 0;
     background-image: url(intro-xl.jpg);
+
 }
 #section-bg-2{
     min-height: 500px;
@@ -36,14 +40,26 @@ body {
 
 
 #section-container-1 {
+    /*position: relative;*/
+    /*top: -50%;*/
     height: 100%;
+    /*height: 101vh;*/
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     justify-content: center;
     align-items: center;
     color: white;
 }
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-50px);
+}
 #main-section-name {
+    margin-top: 0;
+    margin-bottom: 40px;
     font-size: clamp(56px, 8vw, 80px);
 }
 #main-section-title {
@@ -115,7 +131,8 @@ body {
     padding: 0;
     position: fixed;
     top: 0;
-    left: -100%;
+    /*left: -100%;*/
+    left: 100%;
     width: 100%;
     height: 100%;
     background: #262626;
@@ -167,14 +184,14 @@ ul li a:hover{
 
 
 @media screen and (max-width: 55em) {
-    #section-container-1 {
-        padding-top: 150px;
-        justify-content: start;
+    /*#section-container-1 {*/
+    /*    padding-top: 150px;*/
+    /*    justify-content: start;*/
 
-    }
-    #section-bg-img-1 {
-        height: 700px;
-    }
+    /*}*/
+    /*#section-bg-img-1 {*/
+    /*    height: 700px;*/
+    /*}*/
     .flex-row {
         flex-direction: column;
     }
