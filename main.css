@@ -126,14 +126,14 @@ body {
     font-size: 17px;
 }
 #about-section {
-    width: 60%;
+    width: 70%;
     /*margin-right: 75px;*/
 }
 #about-img-container {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    width: 40%;
+    width: 30%;
 }
 
 .blue-line {
@@ -429,6 +429,13 @@ ul li a:hover{
     }
     #skill-sub-container-1 {
         margin-right: 0;
+    }
+    .skill-circle {
+        height: 70px;
+        width: 70px;
+    }
+    .skill {
+      font-size: 14px;
     }
 
 
