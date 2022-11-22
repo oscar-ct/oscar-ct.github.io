@@ -38,3 +38,16 @@ $(document).ready(function(){
         $('.menu').toggleClass('active');
     });
 });
+
+
+
+const scrollToElement = (targetEl) => {
+    $('html, body').stop().animate({
+        'scrollTop': (targetEl).offset().top
+    }, 800, 'swing');
+    // $('html, body').animate({
+    //     scrollTop: $(targetEl).offset().top
+    // }, 2000);
+    $('.menu').toggleClass('active');
+}
+
