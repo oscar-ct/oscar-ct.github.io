@@ -93,14 +93,14 @@ body {
 .animate-up {
     animation-name: fade-in-up;
     animation-fill-mode: backwards;
-    animation-duration: .4s;
-    animation-delay: .5s;
+    animation-duration: .9s;
+    animation-delay: .4s;
 }
 .animate-down {
     animation-name: fade-in-down;
     animation-fill-mode: backwards;
-    animation-duration: .4s;
-    animation-delay: .5s;
+    animation-duration: .9s;
+    animation-delay: .4s;
 }
 @keyframes fade-in-down {
     from {
