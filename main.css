@@ -5,7 +5,8 @@ body {
     /*font-family: 'Pacifico', cursive;*/
     /*font-family: 'Poppins', sans-serif;*/
     /*font-family: 'Raleway', sans-serif;*/
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: "Helvetica", sans-serif;!important;
     margin: 0;
     padding: 0;
     background-color: #262626;
@@ -93,13 +94,13 @@ body {
     animation-name: fade-in-up;
     animation-fill-mode: backwards;
     animation-duration: .4s;
-    animation-delay: .2s;
+    animation-delay: .5s;
 }
 .animate-down {
     animation-name: fade-in-down;
     animation-fill-mode: backwards;
     animation-duration: .4s;
-    animation-delay: .2s;
+    animation-delay: .5s;
 }
 @keyframes fade-in-down {
     from {
@@ -124,6 +125,7 @@ body {
         transform: translateY(0);
     }
 }
+
 .flex-row {
     display: flex;
     align-items: center;
