@@ -34,6 +34,8 @@ const projects = [
 
 
 $(document).ready(function(){
+    $('#main-section-name').addClass('animate-up');
+    $('#main-section-title').addClass('animate-down');
     $('.toggle').click(function(){
         $('.menu').toggleClass('active');
     });
