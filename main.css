@@ -87,10 +87,10 @@ body {
     text-align: center;
     /*font-size: clamp(56px, 8vw, 80px);*/
     font-size: 80px;
-    animation-name: fade-in-down;
-    animation-fill-mode: backwards;
-    animation-duration: .4s;
-    animation-delay: .2s;
+    /*animation-name: fade-in-down;*/
+    /*animation-fill-mode: backwards;*/
+    /*animation-duration: .4s;*/
+    /*animation-delay: .2s;*/
 }
 @keyframes fade-in-down {
     from {
@@ -104,10 +104,10 @@ body {
 }
 #main-section-title {
     font-size: 20px;
-    animation-name: fade-in-up;
-    animation-fill-mode: backwards;
-    animation-duration: .4s;
-    animation-delay: .2s;
+    /*animation-name: fade-in-up;*/
+    /*animation-fill-mode: backwards;*/
+    /*animation-duration: .4s;*/
+    /*animation-delay: .2s;*/
 }
 @keyframes fade-in-up {
     from {
