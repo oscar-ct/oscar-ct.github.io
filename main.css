@@ -27,7 +27,7 @@ body {
 }
 #section-bg-img-3 {
     /*height: 100%;*/
-    min-height: 700px;
+    min-height: 600px;
     /*min-height: 101vh;*/
     z-index: 0;
     background-image: url(images/mac-bg.jpg);
@@ -408,6 +408,7 @@ i {
     border-radius: 5px;
     background-color: #262626;
     color: grey;
+    /*color: rgba(0, 183, 199, 0.84);*/
     font-size: 13px;
     text-align: center;
 }
@@ -558,7 +559,7 @@ ul li a:hover{
 }
 
 #navbar {
-    display: none;
+    /*display: none;*/
 }
 
 
@@ -608,9 +609,9 @@ ul li a:hover{
         width: 100%;
     }
 
-    #navbar {
-        display: revert;
-    }
+    /*#navbar {*/
+    /*    display: revert;*/
+    /*}*/
 
 
     #stories {
