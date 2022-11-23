@@ -7,6 +7,7 @@ body {
     /*font-family: 'Raleway', sans-serif;*/
     /*font-family: 'Roboto', sans-serif;*/
     font-family: "Helvetica", sans-serif;!important;
+    /*font-family: Arial, sans-serif, sans-serif;*/
     margin: 0;
     padding: 0;
     background-color: #262626;
@@ -136,7 +137,8 @@ body {
     width: 100%;
 }
 #about-img {
-    height: 250px;
+    /*height: 250px;*/
+    max-width: 250px;
     border-radius: 50%;
 }
 #mobile-about-img {
@@ -159,11 +161,11 @@ body {
 }
 #about-section {
     width: 70%;
-    /*margin-right: 75px;*/
+    margin-right: 25px;
 }
 #about-img-container {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     width: 30%;
 }
@@ -447,7 +449,38 @@ i {
     font-weight: 300;
     font-size: 18px;
 }
+#resume-wrapper {
+    width: 100%;
+    min-height: 100px;
+    background: #00b7c7;
+    /*background-color: #183b8a;*/
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 75%;
+    cursor: pointer;
+}
+#resume-wrapper:hover {
+    opacity: 95%;
+}
+#resume-wrapper:hover #resume-text{
+    display: none;
+}
+#resume-wrapper:hover #resume-icon{
+    display: block;
+}
+
+#resume-text {
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+}
+#resume-icon {
+    color: white;
+    font-size: 48px;
+    display: none;
+}
 
 
 
@@ -562,7 +595,7 @@ ul li a:hover{
 
     #about-section {
         width: 90%;
-        /*margin-right: 75px;*/
+        margin-right: 0;
     }
     #about-img-container {
         width: 100%;
