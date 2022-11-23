@@ -11,36 +11,32 @@ body {
     padding: 0;
     background-color: #262626;
 }
-
 #section-bg-img-1 {
     height: 101vh;
     /*height: 100%;*/
     /*min-height: 800px;*/
     /*min-height: 101vh;*/
     z-index: 0;
-    background-image: url(intro-xl.jpg);
-
+    background-image: url(images/intro-xl.jpg);
 }
 #section-bg-2{
     min-height: 700px;
     background-color: black;
     width: 100%;
 }
-
 #section-bg-img-3 {
     /*height: 100%;*/
     min-height: 700px;
     /*min-height: 101vh;*/
     z-index: 0;
-    background-image: url(mac-bg.jpg);
-    opacity: 80%;
+    background-image: url(images/mac-bg.jpg);
+    opacity: 100%;
 }
 #section-bg-4{
     min-height: 700px;
     background-color: black;
     width: 100%;
 }
-
 #section-bg-img-5 {
     /*height: 100%;*/
     min-height: 1500px;
@@ -49,8 +45,6 @@ body {
     background-image: url(projects-xl.jpg);
     /*opacity: 80%;*/
 }
-
-
 .bg-img {
     width: 100%;
     /*height: 100%;*/
@@ -62,8 +56,6 @@ body {
     z-index: -1;
     overflow: hidden;
 }
-
-
 #section-container-1 {
     /*position: relative;*/
     /*top: -50%;*/
@@ -125,7 +117,6 @@ body {
         transform: translateY(0);
     }
 }
-
 .flex-row {
     display: flex;
     align-items: center;
@@ -135,8 +126,6 @@ body {
     flex-direction: column;
     /*align-items: center;*/
 }
-
-
 #section-container-2 {
     height: 100%;
     display: flex;
@@ -178,29 +167,26 @@ body {
     align-items: center;
     width: 30%;
 }
-
 .blue-line {
     width: 100px;
     margin: 15px 0 25px 0;
     border-bottom: solid 3px #00b7c7;
     /*height: 200px;*/
 }
-
-
-
-
-
+.white-line {
+    height: 10px;
+    border-bottom: solid lightgrey 2px;
+    margin: 25px 50px 25px 50px;
+}
 #section-container-3 {
     height: 100%;
     display: flex;
-    color: white;
+    color: lightgrey;
 }
-
 #story-title {
     font-size: 50px;
     padding-bottom: 15px;
 }
-
 #story-container {
     display: flex;
     justify-content: center;
@@ -220,7 +206,6 @@ body {
 }
 .story-container:nth-child(2) {
     border-left: solid white 1px;
-
 }
 /*.story-container:nth-child(3) {*/
 /*    border-right: solid white 1px;*/
@@ -229,7 +214,6 @@ body {
 /*.story-container:nth-child(4) {*/
 /*    border-top: solid white 1px;*/
 /*}*/
-
 .story-name {
     width: 100%;
     padding: 25px;
@@ -242,29 +226,21 @@ body {
     color: lightgray;
     font-size: 17px;
 }
-
-
-
-
 #section-container-4 {
     /*height: 100%;*/
     display: flex;
     color: lightgrey;
     /*background-color: darkred;*/
 }
-
-
 #skills-title {
     font-size: 50px;
     padding-bottom: 15px;
 }
-
 #skills-main-container {
     display: flex;
     /*flex-direction: column;*/
 
 }
-
 #skill-container-1 {
     display: flex;
     /*flex-wrap: wrap;*/
@@ -282,7 +258,6 @@ body {
     /*background-color: #00b7c7;*/
     margin-right: 20px;
 }
-
 .skill-title {
     width: 100%;
     padding-bottom: 25px;
@@ -300,7 +275,6 @@ body {
     justify-content: center;
     align-items: center;
     margin: 10px;
-
 }
 .skill-container-2-3 {
     width: 25%;
@@ -315,21 +289,15 @@ body {
 i {
     padding-right: 7px;
 }
-
-
-
 #section-container-5 {
     display: flex;
     color: lightgrey;
 }
-
-
 #projects-title {
     font-size: 50px;
     padding-bottom: 15px;
 }
-.rect
-{
+.rect {
     /*position: relative;*/
     /*top: 0;*/
     /*left: 0;*/
@@ -340,8 +308,7 @@ i {
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 
 }
-.another-rec
-{
+.another-rec {
     transform: translateX(-35px);
     border-radius: 3px;
     box-shadow: 0 6px 8px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -353,21 +320,19 @@ i {
     /*max-width: 300px;*/
     width: 100%;
 }
-
 .project-container {
     padding-top: 15px;
     width: 100%;
     display: flex;
     justify-content: center;
+    opacity: 75%;
 }
-
 .img-container-1 {
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: end;
 }
-
 .img-container-2 {
     width: 20%;
     display: flex;
@@ -440,15 +405,7 @@ i {
 
 
 
-
-
-
-
-
-
-
-
-
+/* = = = = = = = = = = NAVBAR = = = = = = = = = = =*/
 .toggle{
     position: fixed;
     top: 25px;
@@ -617,6 +574,12 @@ ul li a:hover{
     }
     .project-margin {
         margin-left: 0;
+    }
+    .img-container-1 {
+        width: 75%;
+    }
+    .img-container-2 {
+        width: 25%;
     }
 
 
