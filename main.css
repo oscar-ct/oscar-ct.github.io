@@ -402,6 +402,56 @@ i {
     font-size: 13px;
     text-align: center;
 }
+#footer {
+    background: linear-gradient(45deg,#00b7c7 0,#4d0ce8 100%);
+    height: 200px;
+    min-height: 100px;
+    color: #f2f2f2;
+    /*overflow: hidden;*/
+}
+#footer-wrapper {
+    /*padding: 30px 0 40px;*/
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+
+}
+#social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0 0 0;
+}
+.social-link {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 80%;
+}
+.social-link:hover {
+    opacity: 1;
+}
+.link {
+    color: white;
+    font-size: 32px;
+}
+#cr-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 0 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+
+
+
 
 
 
