@@ -39,6 +39,10 @@ $(document).ready(function(){
     $('.toggle').click(function(){
         $('.menu').toggleClass('active');
     });
+    $('.disabled').mouseover(function () {
+        $(this).css('background', 'rgba(24, 24, 24, 0.51)')
+        $(this).css('color', '#00b7c7')
+    });
 });
 
 

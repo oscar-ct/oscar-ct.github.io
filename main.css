@@ -220,6 +220,7 @@ body {
     width: 100%;
     padding: 25px;
     font-size: 20px;
+    font-weight: 500;
 }
 .story-description {
     padding: 0 25px 25px 25px;
@@ -237,6 +238,7 @@ body {
 #skills-title {
     font-size: 50px;
     padding-bottom: 15px;
+    font-weight: 500;
 }
 #skills-main-container {
     display: flex;
@@ -268,7 +270,8 @@ body {
 }
 
 .skill-circle {
-    border: solid grey 2px;
+    border: solid #2c2c2c 2px;
+    background-color: #1a1a1a;
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -361,7 +364,7 @@ i {
 .btn {
     cursor: pointer;
     border: #00b7c7 solid 2px;
-    background-color: #181818;
+    background-color: rgba(24, 24, 24, 0.51);
     padding: 10px;
     margin: 20px;
     width: 65px;
@@ -371,10 +374,14 @@ i {
     color: #00b7c7;
     text-decoration: none;
 }
-.btn:hover {
-    background-color: #00b7c7;
-    color: white;
 
+.btn:hover {
+    background-color: rgba(0, 183, 199, 0.84);
+    color: white;
+}
+.disabled {
+    cursor: none!important;
+    opacity: 40%;!important;
 }
 .project-margin {
     margin-left: 25px;
