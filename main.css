@@ -346,7 +346,7 @@ i {
 }
 .project-description-container {
     display: flex;
-    padding-top: 50px;
+    padding-top: 25px;
     width: 100%;
 }
 .project-title {
