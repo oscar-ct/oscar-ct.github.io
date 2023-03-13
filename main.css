@@ -12,6 +12,10 @@ body {
     padding: 0;
     background-color: #262626;
 }
+.codeup-link {
+    color: white;
+    font-weight: bold;
+}
 #section-bg-img-1 {
     height: 101vh;
     /*height: 100%;*/
@@ -262,15 +266,20 @@ body {
     /*background-color: #00b7c7;*/
     margin-right: 20px;
 }
+.skill {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
 .skill-title {
     width: 100%;
     padding-bottom: 25px;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 400;
 }
 
 .skill-circle {
-    border: solid #2c2c2c 2px;
+    border: solid #00b7c7 2px;
     background-color: #1a1a1a;
     height: 100px;
     width: 100px;
@@ -280,6 +289,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 10px;
+
 }
 .skill-container-2-3 {
     width: 25%;
@@ -290,6 +300,7 @@ body {
 .skill-text {
     padding: 5px;
     font-weight: 300;
+
 }
 i {
     padding-right: 7px;
